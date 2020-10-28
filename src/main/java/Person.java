@@ -4,9 +4,9 @@ public class Person {
     private String lastName;
 
     // Constructor: creates a Person with the given first name and last name
-    public Person(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Person(String first, String last) {
+        this.firstName = first;
+        this.lastName = last;
     }
 
     // Default Constructor: creates a generic person
